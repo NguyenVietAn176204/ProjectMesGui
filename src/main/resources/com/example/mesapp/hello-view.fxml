@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mesapp.HelloController">
+   <children>
+      <ImageView fx:id="buttonCall" fitHeight="33.0" fitWidth="40.0" layoutX="221.0" layoutY="17.0" onMouseClicked="#buttonCall" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/viber.png" />
+         </image>
+      </ImageView>
+      <Line endX="321.0" endY="-24.666664123535156" layoutX="79.0" layoutY="92.0" startX="-78.9999771118164" startY="-24.666664123535156" />
+      <Line endX="193.99996948242188" endY="71.6666259765625" layoutX="206.0" layoutY="469.0" startX="-205.99998474121094" startY="71.6666259765625" />
+      <TextField layoutX="132.0" layoutY="553.0" prefHeight="39.0" prefWidth="212.0" />
+      <Label layoutX="14.0" layoutY="522.0" prefHeight="39.0" prefWidth="40.0" text="...">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="77.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/microphone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="47.0" layoutX="285.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/cam-recorder.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="34.0" layoutX="356.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/send.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="59.0" layoutX="54.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/monkey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="46.0" layoutX="346.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/loupe.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="233.0" layoutY="121.0" prefHeight="33.0" prefWidth="149.0" text="Bạn có khỏe không ?" textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="181.0" prefHeight="33.0" prefWidth="149.0" text="Mình khỏe" textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="214.0" prefHeight="33.0" prefWidth="149.0" text="Còn bạn thì sao ?" textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="283.0" prefHeight="33.0" prefWidth="149.0" text="        Mình vẫn ổn." textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="317.0" prefHeight="33.0" prefWidth="199.0" text="Khi nào mình gặp nhau nhé" textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="350.0" prefHeight="33.0" prefWidth="229.0" text="Mình muốn nói chuyện với bạn" textFill="#2d508a">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
